@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/chanukaabeysinghe/CLionProjects/PokerCardGame/Card.h
+iostream
+-
+stdlib.h
+-
+
+/Users/chanukaabeysinghe/CLionProjects/PokerCardGame/Dealer.h
+iostream
+-
+stdlib.h
+-
+Card.h
+/Users/chanukaabeysinghe/CLionProjects/PokerCardGame/Card.h
+Player.h
+/Users/chanukaabeysinghe/CLionProjects/PokerCardGame/Player.h
+
+/Users/chanukaabeysinghe/CLionProjects/PokerCardGame/Player.h
+iostream
+-
+stdlib.h
+-
+Card.h
+/Users/chanukaabeysinghe/CLionProjects/PokerCardGame/Card.h
+Dealer.h
+/Users/chanukaabeysinghe/CLionProjects/PokerCardGame/Dealer.h
+
+/Users/chanukaabeysinghe/CLionProjects/PokerCardGame/main.cpp
+iostream
+-
+stdlib.h
+-
+Card.h
+/Users/chanukaabeysinghe/CLionProjects/PokerCardGame/Card.h
+Dealer.h
+/Users/chanukaabeysinghe/CLionProjects/PokerCardGame/Dealer.h
+Player.h
+/Users/chanukaabeysinghe/CLionProjects/PokerCardGame/Player.h
+
